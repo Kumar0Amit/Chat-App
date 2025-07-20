@@ -25,7 +25,8 @@ const userSchema = new mongoose.Schema({
         type : String,
         default : "",
     },
-});
+    //created =>user since <createdat> used for such things
+},{timestamps:true});
 
 
 
